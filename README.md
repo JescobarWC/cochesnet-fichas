@@ -1,17 +1,20 @@
+# 🚗 Coches.net Ficha Técnica Scraper
 
-# Coches.net Ficha Técnica Scraper
+Consulta fichas técnicas de coches de manera rápida introduciendo Marca, Modelo y Acabado.  
+La app buscará automáticamente la ficha en coches.net y te mostrará los datos técnicos.
 
-Consulta fichas técnicas de coches en coches.net introduciendo Marca, Modelo y Acabado.
+---
 
-## 🚀 Cómo desplegar en Render
+## 🚀 Despliegue rápido con Render
 
-1. Ve a https://render.com
-2. Crea un nuevo Web Service
-3. Conecta tu cuenta de GitHub y selecciona este repositorio
-4. Configura:
-   - **Build Command:** `pip install -r requirements.txt`
-   - **Start Command:** `streamlit run app.py --server.port $PORT`
-   - **Runtime:** Python 3.10 o superior
-5. Haz clic en Deploy
+Haz clic en el botón para desplegar esta app con un solo clic:
 
-Tu app estará disponible en minutos.
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/JescobarWC/cochesnet-fichas)
+
+---
+
+## 🛠️ Requisitos para desarrollo local
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
